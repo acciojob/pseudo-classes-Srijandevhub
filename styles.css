@@ -1,1 +1,31 @@
 /*  your css code here. If applicable */
+:root {
+	--body-color: rgb(135, 206, 235);
+}
+body {
+	background-color: var(--body-color);
+}
+.main p:first-child {
+	background: #000;
+	color:#fff;
+}
+.main p:nth-child(2) {
+	color: #000;
+}
+.main p:last-child {
+	color: red;
+}
+ul li {
+	width: 50%;
+	padding: 10px;
+	background-color: #fff;
+}
+ul li:nth-child(even) {
+	background-color: gray;
+}
+ul li:nth-child(3) {
+	background: pink
+}
+ul li:first-child, ul li:last-child {
+	font-size: 22px;
+}
